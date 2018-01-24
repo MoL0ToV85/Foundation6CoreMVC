@@ -1,16 +1,16 @@
 {
-  "name": "asp.net-core web app",
-  "description": "Shows how to deploy ASP.NET Core app on Heroku",
+  "name": "Foundation 6 - Core - MVC",
+  "description": "Deploy ASP.NET Core app en Heroku",
   "logo": "https://raw.githubusercontent.com/herokumx/herokumxnet/master/NETChatterGroup.png",
   "keywords": ["heroku", "asp.net-core"],
   "env": {
     "PUBLISH_APP_DIR": {
       "description": "The relative path to main published project",
-      "value" : "/src/WebApp"
+      "value" : "/Foundation6CoreMVC"
     },
     "LAUNCH_ASSEMBLY_NAME": {
       "description": "The assembly name, that will be used to run app using Kestrel",
-      "value": "WebApp.dll"
+      "value": "Foundation6CoreMVC.dll"
     }
   },
   "buildpacks": [
